@@ -1,0 +1,34 @@
+body {
+  font-family:
+    system-ui,
+    -apple-system,
+    Segoe UI,
+    Roboto,
+    Arial,
+    sans-serif;
+  padding: 24px;
+}
+
+.form {
+  display: inline-flex;
+  flex-direction: column;
+  gap: 16px;
+  max-width: 320px;
+}
+
+input[type='number'] {
+  width: 100%;
+  padding: 8px 10px;
+  font-size: 16px;
+  margin-top: 6px;
+}
+
+fieldset {
+  padding: 10px 12px;
+}
+
+button {
+  padding: 10px 14px;
+  font-size: 16px;
+  cursor: pointer;
+}
